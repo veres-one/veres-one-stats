@@ -1,0 +1,26 @@
+{
+  "name": "veres-one-stats",
+  "version": "0.0.1",
+  "description": "Provides stats repoorts for Veres One",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "peerDependencies": {
+    "bedrock": "^3.0.0",
+    "bedrock-express": "^3.0.0",
+    "bedrock-ledger-consensus-continuity-stats-monitor": "digitalbazaar/bedrock-ledger-consensus-continuity-stats-monitor#ee14800d36dd7bb104139f2fbdddf4f4a8724c5e",
+    "bedrock-ledger-node-stats-monitor": "^1.0.0",
+    "bedrock-package-manager": "^1.0.0",
+    "bedrock-stats": "^1.0.0",
+    "bedrock-stats-storage-redis": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-digitalbazaar": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  }
+}
