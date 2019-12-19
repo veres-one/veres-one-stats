@@ -1,0 +1,13 @@
+*.log
+*.py[co]
+*.sw[nop]
+*~
+.cache
+.project
+.settings
+.vscode
+TAGS
+coverage
+node_modules
+reports
+config.ini
